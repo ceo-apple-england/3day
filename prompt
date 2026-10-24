@@ -1,0 +1,970 @@
+MASTER PROMPT — HORROR HALLOWEEN EXPERIENCE WEBSITE
+Dự án: NOCTURNE — The Haunted Realm
+1. VAI TRÒ CỦA BẠN
+
+Bạn là một đội ngũ chuyên gia phát triển website hàng đầu, bao gồm:
+
+Senior Creative Developer.
+Senior Frontend Engineer.
+UI/UX Designer chuyên về trải nghiệm tương tác.
+Motion Designer chuyên về cinematic animation.
+Three.js Developer chuyên về hiệu ứng 3D và WebGL.
+Sound Designer chuyên về âm thanh kinh dị.
+Performance Engineer chuyên tối ưu hiệu suất website.
+
+Nhiệm vụ của bạn là thiết kế và lập trình một website Halloween kinh dị, ma quái, bí ẩn, có chiều sâu nghệ thuật và chất lượng tương đương một sản phẩm digital experience cao cấp.
+
+Không tạo một website Halloween thông thường. Hãy tạo ra một thế giới kinh dị tương tác, nơi người dùng cảm thấy như đang bước vào một bộ phim kinh dị điện ảnh.
+
+Tên website: NOCTURNE — The Haunted Realm
+
+Thông điệp chính: Enter the darkness. Face your fears.
+
+Website phục vụ mục đích giải trí, khám phá, chơi trò chơi kinh dị và trải nghiệm những hiệu ứng tương tác độc đáo.
+
+Hãy chủ động đưa ra các quyết định về thiết kế, kiến trúc, màu sắc, font chữ, hiệu ứng, bố cục và trải nghiệm người dùng. Không yêu cầu tôi lựa chọn thêm.
+
+2. Ý TƯỞNG THIẾT KẾ CHỦ ĐẠO
+
+Xây dựng một thế giới Halloween mang phong cách kết hợp giữa:
+
+Gothic Horror.
+Dark Cinematic.
+Haunted Victorian Mansion.
+Psychological Horror.
+Supernatural Mystery.
+Premium Interactive Storytelling.
+
+Bối cảnh chính là một tòa lâu đài cổ nằm sâu trong khu rừng đen, bao phủ bởi sương mù, ánh trăng đỏ, những cành cây khô, những ngọn nến lập lòe và những linh hồn lang thang.
+
+Phong cách tổng thể phải tạo ra cảm giác lạnh lẽo, cô độc, bí ẩn, đáng sợ nhưng vẫn đẹp, tinh tế và cuốn hút.
+
+Không sử dụng phong cách hoạt hình trẻ em. Không biến website thành một trang bán hàng. Không sử dụng bố cục template đại trà.
+
+Mọi thành phần phải có sự liên kết về mặt hình ảnh và chuyển động.
+
+Bảng màu
+Background chính: #050507.
+Background phụ: #0B0A10.
+Gothic Purple: #4A176D.
+Blood Red: #A30D25.
+Crimson Glow: #FF1838.
+Moonlight Silver: #C7C4D5.
+Ghost White: #F2EDF5.
+Muted Text: #8D8998.
+
+Màu đỏ chỉ xuất hiện tại những điểm nhấn quan trọng như nút tương tác, mắt quỷ, ánh sáng cảnh báo hoặc hiệu ứng siêu nhiên.
+
+Sử dụng ánh sáng thể tích, bóng đổ sâu, tương phản mạnh và những vùng tối rộng để tạo chiều sâu điện ảnh.
+
+Font chữ
+
+Sử dụng Google Fonts:
+
+Cinzel Decorative: Tiêu đề lớn, tên lâu đài và những dòng chữ mang phong cách cổ xưa.
+Cormorant Garamond: Nội dung kể chuyện, mô tả bí ẩn và những đoạn văn mang tính điện ảnh.
+Inter: Menu, nút điều khiển, giao diện trò chơi và nội dung chức năng.
+
+Quy tắc typography:
+
+Tiêu đề chính có kích thước lớn, chữ in hoa, tracking rộng.
+Sử dụng chữ nghiêng cho các câu chuyện hoặc thông điệp bí ẩn.
+Áp dụng hiệu ứng xuất hiện từng ký tự hoặc từng từ cho những tiêu đề quan trọng.
+Không lạm dụng font chữ trang trí.
+Đảm bảo văn bản luôn dễ đọc trên màn hình điện thoại và máy tính.
+3. CÔNG NGHỆ BẮT BUỘC
+
+Sử dụng các công nghệ hiện đại sau:
+
+Frontend
+React.
+TypeScript.
+Vite.
+Tailwind CSS.
+CSS Variables để quản lý design tokens.
+Framer Motion hoặc Motion for React để tạo animation giao diện.
+GSAP và ScrollTrigger cho những chuyển động cinematic phức tạp.
+Lenis để tạo hiệu ứng cuộn mượt nếu không ảnh hưởng khả năng truy cập.
+3D và hiệu ứng hình ảnh
+Three.js.
+React Three Fiber.
+Drei.
+GLSL shaders khi thực sự cần thiết.
+Canvas 2D cho các hạt bụi, sương mù và hiệu ứng nhẹ.
+
+Chỉ sử dụng Three.js cho những cảnh 3D thực sự có giá trị. Không làm giảm hiệu suất chỉ để thêm hiệu ứng trang trí.
+
+Âm thanh
+Web Audio API.
+HTML5 Audio.
+Các file âm thanh được cấp phép sử dụng hoặc tự tạo.
+Công cụ phát triển
+npm.
+ESLint.
+Prettier.
+Git.
+Chrome DevTools.
+Lighthouse.
+Responsive testing tools.
+Quy tắc kỹ thuật
+Viết TypeScript rõ ràng, có kiểu dữ liệu đầy đủ.
+Tổ chức code theo component, hooks, utilities và services.
+Tách riêng dữ liệu, logic trò chơi, giao diện và hiệu ứng.
+Không viết toàn bộ website trong một file.
+Không sử dụng code giả lập thay cho chức năng thực tế.
+Không tạo các nút bấm chỉ để trang trí.
+Không để xảy ra lỗi console, lỗi TypeScript hoặc lỗi import.
+Không sử dụng thư viện không cần thiết.
+Chỉ cài đặt những package thực sự được sử dụng.
+4. CẤU TRÚC WEBSITE
+
+Tạo website dạng Single Page Application với nhiều khu vực trải nghiệm và chuyển động chuyển cảnh liền mạch.
+
+Các khu vực chính:
+
+Cinematic Intro.
+Haunted Hero.
+The Forbidden Story.
+Enter the Mansion.
+Haunted Experiences.
+Horror Mini Games.
+Paranormal Gallery.
+The Ritual.
+Final Nightmare.
+Footer bí ẩn.
+
+Có thể sử dụng URL hash hoặc React Router nếu cần điều hướng giữa các khu vực. Mọi điều hướng phải có trạng thái đang tải, chuyển cảnh và trạng thái lỗi phù hợp.
+
+PHẦN 1 — CINEMATIC INTRO
+
+Khi người dùng mở website lần đầu, hiển thị màn hình đen toàn màn hình.
+
+Ở giữa màn hình là dòng chữ:
+
+“THE NIGHT IS CALLING YOU”
+
+Phía dưới là một biểu tượng mặt trăng đỏ tối giản được tạo bằng SVG hoặc CSS, không dùng emoji.
+
+Chuỗi animation mở đầu
+Màn hình đen tuyệt đối trong khoảng 700ms.
+Những hạt bụi nhỏ bắt đầu xuất hiện từ các góc màn hình.
+Âm thanh gió lạnh xuất hiện ở âm lượng thấp sau khi người dùng cho phép âm thanh.
+Ánh trăng đỏ từ từ hiện ra phía sau màn hình.
+Dòng chữ xuất hiện bằng hiệu ứng opacity và blur-to-focus.
+Một lớp sương mù di chuyển ngang màn hình.
+Xuất hiện nút “ENTER THE DARKNESS”.
+Khi người dùng nhấn nút, toàn màn hình chuyển sang cảnh lâu đài.
+
+Chuyển cảnh bằng hiệu ứng radial mask kết hợp fade, blur và ánh sáng đỏ lóe nhẹ.
+
+Không dùng flash trắng hoặc hiệu ứng gây khó chịu.
+
+Sau lần truy cập đầu tiên, có thể bỏ qua intro trong các lần chuyển khu vực tiếp theo.
+
+Cho phép người dùng nhấn “Skip Intro” để bỏ qua hoạt cảnh mở đầu.
+
+5. PHẦN HERO — THE HAUNTED REALM
+
+Đây là khu vực quan trọng nhất của website.
+
+Thiết kế một hero toàn màn hình với tỷ lệ cinematic, ưu tiên hình ảnh 16:9 hoặc khung nhìn toàn màn hình tùy thiết bị.
+
+Thành phần hình ảnh
+Một lâu đài Gothic khổng lồ nằm giữa khu rừng.
+Trăng đỏ xuất hiện phía sau những đỉnh tháp.
+Sương mù trôi qua mặt đất.
+Cành cây đen chuyển động nhẹ theo gió.
+Những đốm sáng siêu nhiên bay quanh khu vực.
+Cửa sổ lâu đài thỉnh thoảng phát sáng đỏ.
+Một bóng người bí ẩn xuất hiện ở khoảng cách xa.
+Các lớp cảnh được bố trí theo chiều sâu để tạo parallax.
+
+Ưu tiên sử dụng hình ảnh chất lượng cao hoặc mô hình 3D được tối ưu. Không tạo hình nền chỉ bằng gradient đơn giản rồi coi đó là hoàn thành.
+
+Nội dung
+
+Tiêu đề lớn:
+
+“WELCOME TO THE HAUNTED REALM”
+
+Dòng mô tả:
+
+“Beyond the veil of darkness, something is waiting for you.”
+
+Nút chính:
+
+“ENTER THE MANSION”
+
+Nút phụ:
+
+“DISCOVER THE UNKNOWN”
+
+Bên dưới hiển thị chỉ dẫn nhỏ:
+
+“SCROLL TO DESCEND”
+
+Animation
+Tiêu đề xuất hiện theo từng từ với stagger.
+Dòng mô tả xuất hiện trễ khoảng 300ms.
+Hai nút xuất hiện bằng fade-up.
+Sương mù chuyển động chậm theo chiều ngang.
+Các lớp cảnh di chuyển parallax theo con trỏ với biên độ nhỏ.
+Ánh trăng tạo halo nhẹ, không lạm dụng glow.
+Khi cuộn xuống, cảnh lâu đài từ từ thu nhỏ và chìm vào bóng tối.
+Chỉ dùng cursor parallax trên thiết bị có chuột và hỗ trợ giảm chuyển động.
+6. PHẦN THE FORBIDDEN STORY
+
+Tạo một khu vực kể chuyện theo phong cách điện ảnh.
+
+Tiêu đề:
+
+“EVERY HOUSE HAS A SECRET”
+
+Nội dung kể về một lâu đài bị bỏ hoang hơn một thế kỷ, nơi những người bước vào đều nghe thấy tiếng thì thầm trong các bức tường.
+
+Khi người dùng cuộn trang:
+
+Background chuyển dần từ màu đen sang tím than.
+Một bức chân dung cũ hiện lên từ màn sương.
+Văn bản xuất hiện theo từng dòng.
+Một vết nứt ánh đỏ từ từ lan trên khung tranh.
+Khi cuộn đến đoạn cuối, đôi mắt trong bức tranh mở ra.
+Một âm thanh thì thầm nhỏ xuất hiện nếu âm thanh được bật.
+Bức tranh mờ dần khi người dùng tiếp tục cuộn.
+
+Sử dụng GSAP ScrollTrigger cho chuỗi chuyển động liên kết với vị trí cuộn.
+
+Không khóa người dùng trong các hoạt cảnh quá lâu. Mọi hiệu ứng phải cho phép cuộn tự nhiên và có thể giảm cường độ trên thiết bị di động.
+
+7. PHẦN ENTER THE MANSION
+
+Tạo một khu vực có hình ảnh lâu đài lớn với ba cánh cửa tương tác.
+
+Mỗi cánh cửa dẫn tới một trải nghiệm khác nhau.
+
+Door 01 — The Haunted Corridor
+
+Một hành lang tối với những ngọn nến, tranh chân dung và tiếng bước chân.
+
+Khi hover:
+
+Cửa rung nhẹ.
+Ánh sáng đỏ xuất hiện từ khe cửa.
+Tiếng gỗ kẽo kẹt phát một lần nếu âm thanh được bật.
+Tiêu đề xuất hiện phía trên cánh cửa.
+
+Khi nhấn:
+
+Camera tiến gần cánh cửa.
+Ánh sáng xung quanh giảm dần.
+Cánh cửa mở chậm.
+Màn hình chuyển sang trải nghiệm hành lang.
+Door 02 — The Witch’s Chamber
+
+Một căn phòng phù thủy với nến, sách cổ, vòng tròn nghi lễ và những ký hiệu ma thuật.
+
+Khi hover:
+
+Các ký hiệu sáng lên.
+Khói tím bốc lên từ mặt đất.
+Một vật thể nhỏ lơ lửng trong không khí.
+
+Khi nhấn:
+
+Những ký hiệu bắt đầu xoay.
+Camera zoom vào trung tâm vòng tròn.
+Hiệu ứng chuyển cảnh bằng vòng tròn ma thuật.
+Door 03 — The Forgotten Crypt
+
+Một hầm mộ cổ với những phiến đá, sương lạnh và ánh sáng xanh bạc.
+
+Khi hover:
+
+Sương mù dày lên.
+Các vết nứt trên đá phát sáng.
+Một bóng đen di chuyển phía sau cửa.
+
+Khi nhấn:
+
+Ánh sáng tắt dần.
+Cửa mở ra.
+Camera di chuyển xuống hầm mộ.
+Một lớp sương che toàn bộ màn hình trước khi vào cảnh mới.
+
+Tất cả cánh cửa phải có thể tương tác bằng chuột, bàn phím và cảm ứng.
+
+8. PHẦN HAUNTED EXPERIENCES
+
+Tạo các thẻ trải nghiệm có thiết kế cao cấp, không dùng card giao diện đại trà.
+
+Bao gồm:
+
+Haunted House.
+Cursed Mirror.
+Ghost Detector.
+Forbidden Library.
+Witch’s Ritual.
+Midnight Cemetery.
+
+Mỗi thẻ bao gồm hình ảnh riêng, tên trải nghiệm, một câu mô tả ngắn và nút tương tác.
+
+Animation của thẻ
+Hình ảnh phóng to nhẹ khi hover.
+Ánh sáng chuyển động chậm qua bề mặt.
+Viền sáng xuất hiện dần.
+Nội dung dịch chuyển lên khoảng 6–10px.
+Một lớp sương hoặc hạt bụi xuất hiện tùy từng thẻ.
+Khi nhấn, thẻ chuyển sang chế độ focus rồi mở trang trải nghiệm.
+Khi quay lại, trạng thái giao diện được khôi phục hợp lý.
+
+Không để tất cả các thẻ có hiệu ứng giống hệt nhau. Mỗi trải nghiệm cần một dấu ấn chuyển động riêng nhưng vẫn thuộc cùng hệ thống thiết kế.
+
+9. PHẦN HORROR MINI GAMES
+
+Đây là phần mang tính giải trí và tương tác thực sự.
+
+Xây dựng tối thiểu ba trò chơi có thể chơi được.
+
+Game 01 — DON'T LOOK BACK
+
+Người chơi bước vào hành lang tối.
+
+Mục tiêu: tìm đường thoát trước khi bóng ma xuất hiện phía sau.
+
+Cơ chế:
+
+Người chơi sử dụng các phím mũi tên hoặc WASD để di chuyển.
+Một chỉ báo mức độ nguy hiểm tăng dần theo thời gian.
+Ánh sáng pin giới hạn tầm nhìn.
+Bóng ma có thể xuất hiện ở những vị trí được lập trình.
+Người chơi thắng khi tìm được cửa thoát.
+Người chơi thua khi bị bóng ma bắt.
+
+Yêu cầu:
+
+Có màn hình bắt đầu.
+Có hướng dẫn điều khiển.
+Có bộ đếm thời gian.
+Có trạng thái thắng và thua.
+Có nút chơi lại.
+Có hiệu ứng âm thanh riêng khi thắng hoặc thua.
+Có thể tạm dừng trò chơi.
+
+Không dùng hình ảnh gây sốc quá mức hoặc nội dung phản cảm.
+
+Game 02 — THE CURSED MIRROR
+
+Một chiếc gương cổ xuất hiện ở giữa màn hình.
+
+Người chơi phải tìm ra những chi tiết bất thường trong hình phản chiếu.
+
+Cơ chế:
+
+Có nhiều vòng chơi.
+Mỗi vòng xuất hiện một số chi tiết thay đổi.
+Người chơi nhấn vào vị trí bất thường để tìm ra lời nguyền.
+Mỗi câu trả lời đúng được cộng điểm.
+Trả lời sai làm giảm thời gian còn lại.
+Có hệ thống tính điểm và màn hình kết quả.
+
+Tạo hiệu ứng hình ảnh méo nhẹ như mặt gương bị nguyền rủa, nhưng vẫn đảm bảo người chơi có thể quan sát và thao tác chính xác.
+
+Game 03 — THE LAST RITUAL
+
+Một trò chơi giải đố ma thuật.
+
+Người chơi phải sắp xếp các ký hiệu theo đúng trình tự để hoàn thành nghi lễ.
+
+Cơ chế:
+
+Các ký hiệu được hiển thị dưới dạng SVG hoặc hình ảnh riêng.
+Người chơi nhấn chọn các ký hiệu theo thứ tự.
+Có gợi ý khi người chơi gặp khó khăn.
+Có số lần thử giới hạn.
+Có hiệu ứng phản hồi khi chọn đúng hoặc sai.
+Khi hoàn thành, vòng tròn ma thuật phát sáng và mở ra phần thưởng.
+Yêu cầu chung cho game
+Logic trò chơi phải hoạt động thực tế.
+Trạng thái trò chơi được quản lý rõ ràng.
+Có thể chơi lại không cần tải lại trang.
+Không sử dụng các nút giả.
+Không tạo chức năng lưu điểm lên máy chủ nếu chưa có backend.
+Nếu lưu kỷ lục cá nhân, có thể sử dụng localStorage và phải xử lý lỗi phù hợp.
+10. PHẦN PARANORMAL GALLERY
+
+Tạo một thư viện hình ảnh kinh dị theo phong cách triển lãm nghệ thuật đen tối.
+
+Các hình ảnh gồm:
+
+Chân dung ma ám.
+Khu rừng bị nguyền rủa.
+Những chiếc mặt nạ cổ.
+Bóng người trong gương.
+Những căn phòng bị bỏ hoang.
+Các biểu tượng nghi lễ cổ xưa.
+Tương tác
+Gallery sử dụng bố cục masonry hoặc lưới bất đối xứng.
+Khi hover, ảnh tăng kích thước rất nhẹ.
+Hiển thị tiêu đề và mô tả trên lớp overlay.
+Khi nhấn, mở lightbox toàn màn hình.
+Chuyển ảnh bằng phím mũi tên hoặc thao tác vuốt.
+Có nút đóng rõ ràng.
+Có thể đóng bằng phím Escape.
+Khi mở lightbox, nền phía sau tối đi và bị khóa cuộn hợp lý.
+Hiệu ứng chuyển ảnh
+Crossfade kết hợp scale nhẹ.
+Một lớp film grain rất tinh tế.
+Tên hình ảnh xuất hiện bằng fade-up.
+Khi đóng, hình ảnh thu nhỏ trở lại vị trí ban đầu nếu có thể.
+
+Không sử dụng hình ảnh trùng lặp để lấp đầy gallery. Mỗi ảnh phải phù hợp với chủ đề và có chất lượng đồng nhất.
+
+11. PHẦN THE RITUAL
+
+Đây là một trải nghiệm tương tác độc đáo.
+
+Tiêu đề:
+
+“AWAKEN WHAT SLEEPS”
+
+Hiển thị một vòng tròn nghi lễ ở trung tâm màn hình.
+
+Vòng tròn gồm nhiều lớp hình học, ký hiệu và đường nét ma thuật được thiết kế bằng SVG hoặc Canvas.
+
+Ở giữa là nút:
+
+“BEGIN THE RITUAL”
+
+Khi người dùng bắt đầu:
+
+Background tối dần.
+Các ký hiệu xuất hiện lần lượt.
+Vòng tròn bắt đầu xoay chậm.
+Những hạt sáng bay từ ngoài vào trung tâm.
+Một làn khói tím lan quanh vòng tròn.
+Âm thanh trầm xuất hiện nếu âm thanh được bật.
+Người dùng phải nhấn hoặc giữ một số ký hiệu theo hướng dẫn trên màn hình.
+Sau khi hoàn thành, vòng tròn phát sáng đỏ rồi tắt đột ngột.
+Một thông điệp bí ẩn xuất hiện.
+
+Thông điệp kết quả có thể được lựa chọn từ một tập nội dung được viết sẵn.
+
+Ví dụ:
+
+“The shadows remember your name.”
+
+Không tuyên bố rằng website có khả năng bói toán hoặc năng lực siêu nhiên thực sự. Đây là trải nghiệm giải trí hư cấu.
+
+12. NHẠC NỀN VÀ HỆ THỐNG ÂM THANH
+
+Xây dựng một hệ thống âm thanh hoàn chỉnh cho toàn website.
+
+Nhạc nền
+
+Sử dụng một bản nhạc nền dark ambient cinematic có các yếu tố:
+
+Tiếng gió rít.
+Drone trầm.
+Piano tối giản.
+Tiếng chuông xa.
+Âm thanh kim loại ngân dài.
+Texture âm thanh siêu nhiên.
+Những khoảng lặng có chủ đích.
+
+Nhạc nền phải có nhịp chậm, không quá ồn, không lấn át trải nghiệm và không phát các âm thanh giật mình liên tục.
+
+Tạo một bản nhạc nền loop dài, liền mạch, không có khoảng ngắt rõ rệt.
+
+Nếu chưa có file âm thanh thật, tạo cấu trúc hỗ trợ file public/audio/ambient-horror.mp3 và ghi rõ tài nguyên cần được cung cấp. Không giả vờ rằng file đã tồn tại.
+
+Hiệu ứng âm thanh
+
+Chuẩn bị các âm thanh riêng:
+
+wind.mp3: tiếng gió nền.
+door-creak.mp3: tiếng cửa gỗ mở.
+whisper.mp3: tiếng thì thầm.
+heartbeat.mp3: tiếng nhịp tim.
+ghost-passing.mp3: âm thanh bóng ma lướt qua.
+ritual.mp3: âm thanh nghi lễ.
+game-win.mp3: âm thanh chiến thắng.
+game-over.mp3: âm thanh thất bại.
+
+Các file chỉ được gọi khi thực sự cần thiết, không tải toàn bộ cùng lúc nếu không cần.
+
+Điều khiển âm thanh
+
+Tạo một Audio Manager tập trung.
+
+Chức năng:
+
+Bật hoặc tắt nhạc nền.
+Điều chỉnh âm lượng.
+Điều chỉnh riêng âm lượng hiệu ứng.
+Lưu lựa chọn âm thanh khi phù hợp.
+Dừng hoặc giảm âm thanh khi tab bị ẩn.
+Không tự động phát âm thanh gây bất ngờ khi người dùng chưa tương tác.
+Hỗ trợ bật nhạc bằng nút “ENTER THE DARKNESS” hoặc nút âm thanh riêng sau tương tác đầu tiên.
+Không tự bật âm thanh trở lại nếu người dùng đã chủ động tắt.
+Khi điều hướng, không tạo nhiều bản nhạc phát chồng lên nhau.
+Xử lý lỗi tải âm thanh mà không làm hỏng giao diện.
+
+Mọi điều khiển âm thanh phải có nhãn dễ hiểu và trạng thái bật/tắt rõ ràng.
+
+13. HỆ THỐNG ANIMATION CHUYÊN NGHIỆP
+
+Toàn website phải có ngôn ngữ chuyển động nhất quán.
+
+Không chỉ sử dụng fade-in mặc định. Hãy xây dựng motion system với các nhóm animation sau.
+
+A. Page transition
+
+Khi người dùng chuyển từ khu vực này sang khu vực khác:
+
+Nội dung hiện tại giảm opacity.
+Background tối dần.
+Một lớp sương di chuyển ngang màn hình.
+Những hạt bụi bay qua.
+Nội dung mới xuất hiện từ blur-to-focus.
+Các thành phần giao diện xuất hiện theo thứ tự ưu tiên.
+
+Thời lượng mục tiêu:
+
+Chuyển khu vực nhẹ: 250–450ms.
+Chuyển cảnh cinematic: 600–1000ms.
+Mở trải nghiệm 3D: tùy tải cảnh, nhưng phải có phản hồi ngay lập tức.
+
+Không dùng thời gian chờ cố định khiến người dùng phải đợi lâu. Có thể cho phép bỏ qua những chuyển cảnh dài.
+
+B. Scroll animation
+
+Sử dụng GSAP ScrollTrigger cho những đoạn storytelling.
+
+Tiêu đề xuất hiện theo từng từ.
+Hình ảnh chuyển động parallax.
+Background thay đổi theo chiều sâu.
+Các lớp sương di chuyển độc lập.
+Những đường nét ma thuật được vẽ dần.
+Các hình ảnh có thể pin trong một khoảng cuộn ngắn để kể chuyện.
+Chuyển động phải đồng bộ với vị trí cuộn.
+
+Không pin quá nhiều section liên tiếp. Không gây xung đột với cuộn trên điện thoại.
+
+C. Hover animation
+
+Mỗi tương tác hover phải phản hồi rõ ràng nhưng tinh tế:
+
+Nút chính: ánh sáng đỏ lan ra từ tâm.
+Nút phụ: đường viền xuất hiện từ trái sang phải.
+Thẻ trải nghiệm: hình ảnh zoom nhẹ và nội dung dịch chuyển lên.
+Cánh cửa: rung nhẹ, phát sáng ở khe cửa.
+Hình ảnh gallery: tăng scale và hiển thị overlay.
+Liên kết menu: underline animation kết hợp màu chuyển dần.
+
+Không áp dụng hover animation cho những phần tử không tương tác.
+
+D. Ambient animation
+
+Các hiệu ứng nền phải hoạt động chậm và có chiều sâu:
+
+Fog drift.
+Floating particles.
+Candle flicker.
+Moon glow.
+Distant shadow movement.
+Subtle film grain.
+Floating dust.
+Slow light rays.
+
+Không để toàn bộ hiệu ứng chạy ở cùng tốc độ.
+
+E. Micro-interactions
+Nút có trạng thái hover, focus, pressed và disabled.
+Toggle âm thanh có animation trạng thái.
+Bộ đếm game chuyển động khi giá trị thay đổi.
+Khi trả lời đúng, ký hiệu phát sáng.
+Khi trả lời sai, thành phần rung rất nhẹ và đổi màu.
+Khi mở modal, nền chuyển tối mượt.
+Khi đóng modal, nội dung trở lại trạng thái ban đầu.
+F. Loading animation
+
+Tạo loading screen riêng cho những cảnh 3D hoặc tài nguyên lớn.
+
+Nội dung:
+
+“SUMMONING THE SHADOWS…”
+
+Kèm theo:
+
+Một vòng tròn ma thuật đang xoay.
+Thanh tiến trình nếu có thể đo được tiến độ thực tế.
+Các ký hiệu xuất hiện luân phiên.
+
+Không hiển thị phần trăm tải giả. Nếu không xác định được tiến độ thật, sử dụng loading indicator dạng vô định.
+
+14. CURSOR VÀ HIỆU ỨNG CHUỘT
+
+Trên máy tính, tạo cursor tùy chỉnh mang phong cách gothic.
+
+Thiết kế:
+
+Một vòng tròn mảnh màu xám bạc.
+Một chấm đỏ nhỏ ở trung tâm.
+Hiệu ứng trailing rất nhẹ.
+Khi hover vào nút, cursor thay đổi kích thước.
+Khi nhấn, vòng tròn thu nhỏ rồi trở lại trạng thái bình thường.
+
+Yêu cầu:
+
+Cursor mặc định vẫn phải hoạt động hợp lý.
+Không ẩn con trỏ hệ thống trên toàn website nếu điều đó làm giảm khả năng sử dụng.
+Không gây độ trễ cảm nhận khi di chuyển chuột.
+Tắt cursor tùy chỉnh trên thiết bị cảm ứng.
+Tôn trọng prefers-reduced-motion.
+Đảm bảo cursor không che văn bản nhỏ hoặc biểu tượng chức năng.
+15. HEADER VÀ NAVIGATION
+
+Tạo header tối giản, sang trọng.
+
+Logo chữ:
+
+“NOCTURNE”
+
+Menu:
+
+Home.
+The Story.
+Experiences.
+Games.
+Gallery.
+Ritual.
+
+Nút điều khiển:
+
+Audio.
+Menu trên mobile.
+
+Không dùng emoji làm logo hoặc biểu tượng giao diện.
+
+Sử dụng icon SVG hoặc thư viện Lucide với kiểu nét thống nhất.
+
+Hành vi header
+Ban đầu trong suốt.
+Khi cuộn xuống, chuyển sang nền đen bán trong suốt.
+Áp dụng backdrop blur vừa phải.
+Logo có thể thay đổi độ sáng khi cuộn.
+Menu đang hoạt động có dấu hiệu nhận biết.
+Khi nhấn menu, một bảng điều hướng toàn màn hình xuất hiện.
+Menu mở bằng stagger animation.
+Khi đóng, menu biến mất theo thứ tự ngược lại.
+Nhấn Escape để đóng menu.
+Khi mở menu trên điện thoại, khóa cuộn nền hợp lý.
+
+Điều hướng đến section phải cuộn mượt, đồng thời cập nhật trạng thái đang hoạt động.
+
+16. FOOTER — THE END IS ONLY THE BEGINNING
+
+Footer phải tiếp tục duy trì bầu không khí kinh dị.
+
+Thiết kế:
+
+Background đen hoàn toàn.
+Một hình mặt trăng chìm dần trong sương.
+Các đường nét giống kiến trúc Gothic.
+Một câu kết xuất hiện ở trung tâm.
+
+Nội dung:
+
+“YOU HAVE SEEN NOTHING YET.”
+
+Bên dưới:
+
+“Some doors should remain closed.”
+
+Các liên kết:
+
+Explore Again.
+Games.
+Gallery.
+Credits.
+
+Hiệu ứng:
+
+Các dòng chữ xuất hiện theo thứ tự.
+Background dịch chuyển rất chậm.
+Ánh đỏ mờ dần khi người dùng rời khỏi footer.
+Nút Explore Again đưa người dùng về đầu trang với chuyển động hợp lý.
+
+Không tạo những liên kết không có đích đến thực tế.
+
+17. YÊU CẦU ĐẶC BIỆT: LOẠI BỎ ICON KHÔNG CẦN THIẾT
+
+Áp dụng quy tắc thiết kế nghiêm ngặt:
+
+Không sử dụng emoji để thay thế icon giao diện.
+Không thêm icon trang trí vào mọi tiêu đề.
+Không sử dụng icon ngẫu nhiên từ nhiều bộ khác nhau.
+Không sử dụng icon chỉ để lấp đầy khoảng trống.
+Không dùng icon mạng xã hội nếu website không thực sự có các kênh tương ứng.
+Không sử dụng biểu tượng giỏ hàng, thanh toán, hồ sơ người dùng hoặc thông báo nếu website không có chức năng đó.
+Không thêm icon vào mọi nút một cách máy móc.
+Không sử dụng icon có màu sắc, độ dày nét hoặc phong cách không đồng nhất.
+Ưu tiên typography, hình ảnh, khoảng trắng và chuyển động để tạo điểm nhấn.
+Chỉ giữ lại icon có giá trị chức năng thực sự như điều khiển âm thanh, đóng modal, menu và điều hướng gallery.
+Icon chức năng phải có kích thước hợp lý, tương phản tốt và trạng thái hover/focus rõ ràng.
+Ưu tiên SVG hoặc Lucide Icons, không sử dụng ký tự Unicode thay cho icon quan trọng.
+
+Mục tiêu là tạo giao diện điện ảnh, tối giản và cao cấp thay vì một website có quá nhiều biểu tượng.
+
+18. RESPONSIVE DESIGN
+
+Website phải hoạt động tốt trên:
+
+Desktop lớn.
+Laptop.
+Tablet.
+Điện thoại iOS.
+Điện thoại Android.
+Desktop
+Trải nghiệm cinematic đầy đủ.
+Có parallax chuột.
+Có thể sử dụng cảnh 3D chất lượng cao.
+Hero rộng và nhiều chiều sâu.
+Animation đầy đủ nhưng không làm giảm tốc độ tương tác.
+Tablet
+Giảm số lượng lớp parallax.
+Tối ưu kích thước tiêu đề.
+Điều chỉnh bố cục card.
+Không phụ thuộc hover để mở chức năng.
+Mobile
+Chuyển sang bố cục một cột khi phù hợp.
+Tối ưu font và khoảng cách.
+Sử dụng thao tác chạm thay cho hover.
+Không dùng cursor tùy chỉnh.
+Giảm mật độ hạt và hiệu ứng 3D.
+Giữ thời gian phản hồi ngắn.
+Tránh hiện tượng tràn ngang.
+Không để tiêu đề bị cắt hoặc nút nằm ngoài màn hình.
+Giữ các nút quan trọng đủ lớn để chạm.
+Không tự động phát nhạc khi chưa có tương tác.
+Đảm bảo game có điều khiển cảm ứng nếu cần.
+19. HIỆU SUẤT VÀ TỐI ƯU HÓA
+
+Đây là yêu cầu bắt buộc, không phải tùy chọn.
+
+Ưu tiên transform và opacity cho animation.
+Tránh animation liên tục trên các thuộc tính gây layout lại.
+Không sử dụng quá nhiều bộ lọc blur lớn cùng lúc.
+Giới hạn số lượng particle theo năng lực thiết bị.
+Sử dụng lazy loading cho hình ảnh.
+Tối ưu kích thước ảnh bằng WebP hoặc AVIF khi phù hợp.
+Sử dụng responsive images.
+Lazy-load các cảnh 3D không nằm trong màn hình đầu.
+Dọn dẹp event listeners và animation khi component unmount.
+Giải phóng tài nguyên WebGL khi không còn cần thiết.
+Không tạo nhiều vòng lặp requestAnimationFrame trùng lặp.
+Không để hiệu ứng âm thanh chạy nhiều lần ngoài ý muốn.
+Tách bundle và tải các tính năng nặng khi cần.
+Không tải đồng thời mọi hình ảnh, âm thanh và mô hình 3D.
+Có fallback nếu WebGL không được hỗ trợ.
+Có fallback nếu âm thanh hoặc hình ảnh không tải được.
+Không để hiệu ứng trang trí chặn thao tác của người dùng.
+
+Mục tiêu: website phải mượt, phản hồi nhanh và duy trì khả năng sử dụng trên thiết bị tầm trung.
+
+20. ACCESSIBILITY VÀ TRẢI NGHIỆM NGƯỜI DÙNG
+Hỗ trợ điều hướng bằng bàn phím.
+Sử dụng semantic HTML.
+Có focus state rõ ràng.
+Có aria-label cho các nút chỉ chứa icon.
+Có thể đóng modal bằng Escape.
+Đảm bảo độ tương phản văn bản.
+Không sử dụng màu sắc làm tín hiệu duy nhất.
+Tôn trọng prefers-reduced-motion.
+Có chế độ giảm chuyển động cho các hiệu ứng parallax, zoom và animation trang trí.
+Không sử dụng nhấp nháy cường độ cao.
+Không tạo hiệu ứng gây chóng mặt.
+Không tự động phát âm thanh lớn.
+Không dùng jump scare quá mạnh hoặc lặp lại liên tục.
+Không để nội dung quan trọng chỉ xuất hiện khi hover.
+
+Nếu người dùng bật chế độ giảm chuyển động, giữ nguyên thiết kế và nội dung nhưng chuyển các hoạt cảnh phức tạp thành fade nhẹ hoặc trạng thái tĩnh.
+
+21. QUẢN LÝ TRẠNG THÁI VÀ KIẾN TRÚC CODE
+
+Hãy thiết kế cấu trúc dự án chuyên nghiệp tương tự:
+
+text
+nocturne/
+├── public/
+│   ├── audio/
+│   ├── fonts/
+│   ├── images/
+│   └── models/
+├── src/
+│   ├── app/
+│   ├── components/
+│   │   ├── layout/
+│   │   ├── navigation/
+│   │   ├── effects/
+│   │   ├── audio/
+│   │   ├── transitions/
+│   │   └── ui/
+│   ├── sections/
+│   │   ├── Intro/
+│   │   ├── Hero/
+│   │   ├── Story/
+│   │   ├── Mansion/
+│   │   ├── Experiences/
+│   │   ├── Games/
+│   │   ├── Gallery/
+│   │   ├── Ritual/
+│   │   └── Footer/
+│   ├── games/
+│   │   ├── DontLookBack/
+│   │   ├── CursedMirror/
+│   │   └── LastRitual/
+│   ├── hooks/
+│   ├── services/
+│   ├── utils/
+│   ├── styles/
+│   ├── types/
+│   └── main.tsx
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+└── README.md
+
+
+Đây là cấu trúc định hướng; có thể điều chỉnh nếu hợp lý hơn nhưng phải giữ tính phân tách và dễ bảo trì.
+
+Quản lý trạng thái
+Trạng thái menu.
+Trạng thái intro.
+Trạng thái âm thanh.
+Trạng thái chuyển cảnh.
+Trạng thái modal.
+Trạng thái trò chơi.
+Trạng thái điểm số.
+Trạng thái gallery.
+Trạng thái ritual.
+
+Sử dụng React state, Context hoặc thư viện quản lý trạng thái nhẹ nếu thực sự cần.
+
+Không tạo trạng thái toàn cục phức tạp không cần thiết.
+
+22. QUY ĐỊNH VỀ TÀI NGUYÊN VÀ NỘI DUNG
+
+Không sử dụng tài nguyên giả vờ tồn tại.
+
+Nếu sử dụng hình ảnh, âm thanh, font hoặc mô hình 3D bên ngoài:
+
+Kiểm tra đường dẫn thực tế.
+Sử dụng tài nguyên có giấy phép phù hợp.
+Không phụ thuộc vào những URL không ổn định.
+Không dùng hình ảnh placeholder trong phiên bản hoàn thiện.
+Không dùng cùng một ảnh cho nhiều khu vực chỉ để lấp chỗ trống.
+Không sử dụng file âm thanh không có thật.
+Không tuyên bố rằng tài nguyên đã tải thành công nếu chưa kiểm tra.
+
+Nếu thiếu tài nguyên, hãy tạo component có fallback đẹp, ghi rõ tên file cần cung cấp và tiếp tục hoàn thiện các phần khác.
+
+Tất cả nội dung hiển thị trên website phải được viết hoàn chỉnh, có chủ đề thống nhất và không chứa văn bản mẫu như “Lorem ipsum”, “Coming soon” hoặc “Your content here”, trừ khi đó là nội dung có chủ đích trong trải nghiệm.
+
+23. QUY TRÌNH THỰC HIỆN
+
+Thực hiện dự án theo trình tự:
+
+Giai đoạn 1 — Foundation
+Khởi tạo dự án.
+Cài đặt dependencies.
+Thiết lập TypeScript.
+Thiết lập Tailwind CSS.
+Tạo design tokens.
+Tạo hệ thống typography.
+Tạo cấu trúc component.
+Giai đoạn 2 — Core Experience
+Hoàn thành intro.
+Hoàn thành hero.
+Hoàn thành navigation.
+Hoàn thành page transitions.
+Hoàn thành storytelling.
+Hoàn thành footer.
+Giai đoạn 3 — Interactive Features
+Hoàn thành các cánh cửa tương tác.
+Hoàn thành trải nghiệm.
+Hoàn thành ba mini game.
+Hoàn thành gallery.
+Hoàn thành ritual.
+Hoàn thành audio manager.
+Giai đoạn 4 — Motion Design
+Hoàn thiện scroll animation.
+Hoàn thiện hover animation.
+Hoàn thiện micro-interactions.
+Hoàn thiện particle system.
+Hoàn thiện cinematic transitions.
+Hoàn thiện loading states.
+Giai đoạn 5 — Optimization
+Responsive testing.
+Accessibility testing.
+Kiểm tra lỗi console.
+Kiểm tra lỗi TypeScript.
+Kiểm tra tải tài nguyên.
+Kiểm tra âm thanh.
+Kiểm tra toàn bộ tương tác.
+Tối ưu hiệu suất.
+Kiểm tra chế độ giảm chuyển động.
+24. TIÊU CHUẨN HOÀN THÀNH
+
+Website chỉ được xem là hoàn thành khi đáp ứng tất cả các tiêu chí sau:
+
+Giao diện có phong cách Gothic Horror nhất quán.
+Hero tạo ấn tượng mạnh ngay lần đầu truy cập.
+Intro có thể bỏ qua.
+Có hệ thống nhạc nền và điều khiển âm thanh hoạt động thực tế.
+Các chuyển cảnh không gây giật hoặc che mất nội dung.
+Các section có nội dung hoàn chỉnh.
+Có ít nhất ba mini game hoạt động được.
+Gallery có lightbox và điều hướng ảnh.
+Ritual có logic tương tác và kết quả.
+Menu hoạt động trên cả desktop và mobile.
+Không có nút bấm giả.
+Không có icon trang trí thừa.
+Không có lỗi import hoặc dependency.
+Không có lỗi TypeScript nghiêm trọng.
+Không có lỗi console chưa được xử lý.
+Không có hình ảnh hoặc âm thanh giả vờ tồn tại.
+Responsive trên điện thoại, tablet và desktop.
+Có fallback khi WebGL hoặc tài nguyên âm thanh không hoạt động.
+Có hỗ trợ bàn phím và chế độ giảm chuyển động.
+Các animation được tối ưu để không ảnh hưởng trải nghiệm.
+Có hướng dẫn chạy dự án trong README.
+25. CHỈ THỊ CUỐI CÙNG CHO AI LẬP TRÌNH
+
+Hãy bắt đầu xây dựng website ngay.
+
+Không chỉ trả lời bằng bản mô tả thiết kế. Không chỉ đưa ra wireframe. Không chỉ viết một trang HTML tĩnh. Không chỉ tạo giao diện mẫu mà các nút không hoạt động.
+
+Hãy tạo ra một dự án website hoàn chỉnh, có thể chạy được, có cấu trúc code rõ ràng và có trải nghiệm tương tác thực tế.
+
+Ưu tiên theo thứ tự:
+
+Chất lượng hình ảnh và tính thẩm mỹ.
+Trải nghiệm cinematic và chuyển động chuyên nghiệp.
+Tính tương tác thực tế.
+Hiệu suất và khả năng sử dụng.
+Khả năng bảo trì và mở rộng.
+
+Không hy sinh khả năng sử dụng chỉ để tạo hiệu ứng đẹp. Không lạm dụng animation. Không thêm tính năng không phục vụ chủ đề. Không biến giao diện thành một tập hợp hiệu ứng rời rạc.
+
+Nếu phải lựa chọn giữa một hiệu ứng phức tạp nhưng gây giật và một hiệu ứng tinh tế, mượt mà, hãy chọn phương án mượt mà.
+
+Nếu có tính năng không thể triển khai đầy đủ vì thiếu tài nguyên hoặc giới hạn môi trường, hãy triển khai phiên bản thay thế hoạt động được, ghi rõ giới hạn và không tuyên bố tính năng đã hoàn thiện khi chưa có bằng chứng.
+
+Hãy tự kiểm tra và sửa lỗi trong quá trình thực hiện.
+
+Kết quả cuối cùng cần đạt được: một website Halloween cao cấp, ma quái, đậm chất điện ảnh, có chiều sâu hình ảnh, nhạc nền ám ảnh, animation mượt mà, những trò chơi thực sự tương tác được và cảm giác khám phá một thế giới siêu nhiên sống động.
+
+NOCTURNE không chỉ là một website.
+
+NOCTURNE là một trải nghiệm kinh dị tương tác.
